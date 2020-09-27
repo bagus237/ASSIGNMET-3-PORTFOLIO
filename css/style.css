@@ -16,13 +16,28 @@ hr{
     border-top: 4px solid #666;
 }
 
+.about{
+	font-size: 22px;
+	text-align: justify;
+}
+
 section{
     min-height: 450px;
 }
 
 .portfolio{
-    background-color: #eee;
+	background-color: #eee;
 }
+
+.portfolio img{
+	overflow: hidden;
+	max-width: 350px;
+	max-height: 250px;
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
 
 .team img{
 	width:250px ;
